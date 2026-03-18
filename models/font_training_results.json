@@ -1,0 +1,10 @@
+{
+  "category": {
+    "best_model": "KNN (k=3)",
+    "accuracy": 0.914
+  },
+  "personality": {
+    "best_model": "Random Forest",
+    "accuracy": 0.6344
+  }
+}

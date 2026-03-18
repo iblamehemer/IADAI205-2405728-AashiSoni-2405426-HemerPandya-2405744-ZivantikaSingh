@@ -1,0 +1,17 @@
+{
+  "ROI": {
+    "best_model": "Ridge",
+    "r2": -0.0001,
+    "rmse": 1.7356
+  },
+  "Engagement": {
+    "best_model": "Ridge",
+    "r2": -0.0,
+    "rmse": 2.8783
+  },
+  "Conversion": {
+    "best_model": "Ridge",
+    "r2": -0.0,
+    "rmse": 0.0405
+  }
+}

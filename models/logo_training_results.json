@@ -1,0 +1,14 @@
+{
+  "best_model": "KNN (k=3, cosine)",
+  "top1_accuracy": 0.2249,
+  "top5_accuracy": 0.3397,
+  "cv_accuracy": 0.2107,
+  "random_baseline_top1": 0.02,
+  "improvement_vs_random": 11.2,
+  "dataset": {
+    "samples": 1044,
+    "features": 512,
+    "classes": 50
+  },
+  "note": "KNN used over Random Forest \u2014 same accuracy, 25x smaller file size for GitHub deployment"
+}
