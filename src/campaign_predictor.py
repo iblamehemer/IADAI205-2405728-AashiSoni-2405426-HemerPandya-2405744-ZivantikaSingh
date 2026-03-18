@@ -202,6 +202,9 @@ class CampaignPredictor:
         ctr_est  = self.PERS_CTR.get(personality, 2.5)
 
         if self._loaded:
+            # Estimate Clicks and Impressions from budget/CTR
+            est_impressions = float(budget) / 0.008  # approx CPM $8
+            est_clicks      = est_impressions * (float(ctr_est) / 100)
             row = [
                 self._encode_val("Campaign_Type",    camp_type),
                 self._encode_val("Channel_Used",     channel),
@@ -211,6 +214,8 @@ class CampaignPredictor:
                 float(duration_days),
                 float(budget),
                 float(ctr_est),
+                float(est_clicks),
+                float(est_impressions),
             ]
             X = self.scaler.transform([row])
             roi  = float(self.model_roi.predict(X)[0])
