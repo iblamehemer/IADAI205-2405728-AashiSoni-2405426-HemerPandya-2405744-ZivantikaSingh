@@ -4,7 +4,7 @@
 > **CRS AI Capstone 2025–26 · Scenario 1**  
 > Aashi Dimple Soni (2405728) · Hemer Manish Pandya (2405426) · Zivantika Amit Singh (2405744)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dxyqtqy2vmevept6gqz9qe.streamlit.app)
+[![Streamlit App](https://iadai205-2405728-aashisoni-2405426-hemerpandya-2405744-zivanti.streamlit.app/)
 [![Python 3.14](https://img.shields.io/badge/Python-3.14-blue)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
